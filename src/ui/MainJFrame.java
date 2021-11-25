@@ -22,6 +22,8 @@ public class MainJFrame extends javax.swing.JFrame {
     public MainJFrame() {
         initComponents();
         product = new Product();
+        
+        
     }
 
     /**
@@ -45,6 +47,8 @@ public class MainJFrame extends javax.swing.JFrame {
         btnCreate.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnCreateActionPerformed(evt);
+           
+            
             }
         });
 
@@ -67,6 +71,8 @@ public class MainJFrame extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(btnView)
                 .addContainerGap())
+            
+            
         );
 
         controlPanelLayout.linkSize(javax.swing.SwingConstants.HORIZONTAL, new java.awt.Component[] {btnCreate, btnView});
