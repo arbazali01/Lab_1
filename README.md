@@ -1,2 +1,2 @@
 # Lab_1
-Java Assignment
+This is a Java Application
